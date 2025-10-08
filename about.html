@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Explorer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+
+    
+    <!--nav bar-->
+    <nav class="fixed top-0 left-0 right-0 z-[99999] bg-white shadow-xl flex md:gap-[500px] flex-col md:flex-row text-center md:px-20" style="position: fixed !important; z-index: 99999 !important;">
+        <div class="py-4">
+            <p class="text-blue-600 text-3xl font-bold">📚Book Explorer</p>
+        </div>
+
+        <div class="flex gap-10 px-4 py-5 text-blue-600">
+            <a href="index.html">Home</a>
+            <a href="browse.html">Browse</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="about.html" class="border-b-2 border-blue-600">About</a>
+        </div>
+    </nav>
+
+
+
+    <!-- about page -->
+     <div class="pt-32 text-center">
+        <header class="bg-gray-100 p-6">
+            <h1 class="text-3xl font-bold">About Book Explorer</h1>
+        </header>
+
+        <main class="bg-blue-800 text-white py-10 px-[200px]">
+
+            <p class="text-white mb-10">Your one-stop app to browse and discover amazing books.</p>
+            <p class="">Book Explorer is a web app that allows users to browse books, 
+              view details, and save favorites. This page gives information 
+                about the app and its purpose.
+            </p>
+        </main>
+    </div>
+
+
+
+    <!--Add cards for books-->
+
+
+    <div class="mb-[100px] px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="bookimg4.jpg" alt="Jon" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="bookimg1.png" alt="Jon" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="bookimg2.jpg" alt="Jon" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="bookimg3.jpg" alt="Jon" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="bookimg5.jpg" alt="Jon" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="emily.jpg" alt="emily" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="Jon.jpg" alt="jon" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        <div class="border rounded-lg shadow p-4 flex flex-col">
+            <div class="flex justify-center items-center h-48">
+                <img src="alex.jpg" alt="alex" class="w-full h-full transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+        
+    </div>
+
+
+
+    
+
+
+    <!--footer section-->
+    <footer class=" bottom-0 left-0 mb-0 bg-blue-900 text-white px-20 py-8 mt-32">
+        <div class="px-4 flex flex-col md:flex-row justify-between items-center gap-10">
+            <div>
+                <h2 class="text-lg font-semibold">📚 Book Explorer</h2>
+                <p class="text-gray-400 mt-2 text-sm">
+                   Explore thousands of books, discover new favorites, and grow your personal library.
+                </p>
+            </div>
+
+            <div class="flex gap-4 text-sm">
+                <a href="index.html" class="hover:text-green-400">Home</a></li>
+                <a href="browse.html" class="hover:text-green-400">Browse</a></li>
+                <a href="favorites.html" class="hover:text-green-400">Favorites</a></li>
+                <a href="about.html" class="hover:text-green-400">About</a></li>
+            </div>
+
+
+
+            <div class="flex gap-4 mt-3 text-gray-300">
+                <a href="#" class="hover:text-green-400 flex items-center gap-2">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="#" class="hover:text-green-400 flex items-center gap-2">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#" class="hover:text-green-400 flex items-center gap-2">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+
+            </div>
+
+        </div>
+
+        <p class="text-center text-gray-500 text-xs mt-6">
+            © 2025 Book Explorer. All rights reserved.
+        </p>
+
+    </footer>
+    
+</body>
+</html>
